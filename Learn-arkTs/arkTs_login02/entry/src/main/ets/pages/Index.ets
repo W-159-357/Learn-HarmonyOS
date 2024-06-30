@@ -26,6 +26,11 @@ struct Index {
         }
         .width('100%')
         .height('100%')
-        .padding(20)
+        .padding({
+            left: 20,
+            right: 20,
+            top: 60,
+            bottom: 40
+        })
     }
 }
