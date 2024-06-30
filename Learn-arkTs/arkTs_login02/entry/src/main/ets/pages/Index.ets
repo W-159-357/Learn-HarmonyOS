@@ -18,11 +18,16 @@ struct Index {
                 placeholder: this.password
             }).type(InputType.Password)
             Button('登录')
-                .width('90%')
+                .width('100%')
             Row({space: 15}){
                 Text('前往注册')
                 Text('忘记密码')
             }
+            .border({
+                width:{ left: 2, right: 2 },
+                color:{ left: Color.Red, right: Color.Green },
+                style:{ left: BorderStyle.Dashed, right: BorderStyle.Dotted }
+            })
         }
         .width('100%')
         .height('100%')
