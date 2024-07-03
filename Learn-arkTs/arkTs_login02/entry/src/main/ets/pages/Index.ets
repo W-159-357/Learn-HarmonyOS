@@ -44,6 +44,8 @@ struct Index {
                     .backgroundColor(Color.Pink)
                     .textAlign(TextAlign.Center)
             }
+            // ImageRepeat为是否平铺，后面为平铺的方向
+            .backgroundImage($r('app.media.Alice_w'), ImageRepeat.XY)
         }
         .width('100%')
         .height('100%')
@@ -53,5 +55,7 @@ struct Index {
             top: 60,
             bottom: 40
         })
+        // justifyContent为主方向的内容的对齐方式
+        .justifyContent(FlexAlign.SpaceEvenly)
     }
 }
