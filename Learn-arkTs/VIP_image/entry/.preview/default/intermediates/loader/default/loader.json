@@ -1,0 +1,17 @@
+{
+  "modulePathMap": {
+    "entry": "D:\\src\\Learn-HarmonyOS\\Learn-arkTs\\VIP_image\\entry"
+  },
+  "compileMode": "esmodule",
+  "projectRootPath": "D:\\src\\Learn-HarmonyOS\\Learn-arkTs\\VIP_image",
+  "nodeModulesPath": "D:\\src\\Learn-HarmonyOS\\Learn-arkTs\\VIP_image\\entry\\.preview\\default\\intermediates\\loader_out\\default\\node_modules",
+  "moduleName": "entry",
+  "harNameOhmMap": {},
+  "packageManagerType": "ohpm",
+  "compileEntry": [],
+  "dynamicImportLibInfo": {},
+  "routerMap": [],
+  "hspResourcesMap": {},
+  "anBuildOutPut": "D:\\src\\Learn-HarmonyOS\\Learn-arkTs\\VIP_image\\entry\\.preview\\default\\intermediates\\loader_out\\default\\an\\arm64-v8a",
+  "anBuildMode": "type"
+}
